@@ -101,6 +101,10 @@ class THelperFunctions {
     return MediaQuery.of(Get.context!).size.width;
   }
 
+  static double screenHeight() {
+    return MediaQuery.of(Get.context!).size.height;
+  }
+
   static String getFormattedDate(DateTime date,
       {String format = 'dd MMM yyyy'}) {
     return DateFormat(format).format(date);
