@@ -1,3 +1,4 @@
+import 'package:cloneflut/features/authentication/screens/login/login.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
@@ -20,7 +21,7 @@ class OnboardingController extends GetxController {
   //update current undex & jump to next page
   void nextPage() {
     if (currentPageIndex.value == 1) {
-      // Get.to(LoginScreen());
+      Get.to(LoginScreen());
     } else {
       double page = currentPageIndex.value + 1;
       pageController.jumpTo(page);

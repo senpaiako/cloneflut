@@ -1,6 +1,7 @@
 class TImages {
   // App Logo
-  static const String vadeLogo = "assets/images/logo/logo.png";
+  static const String vadeLogoWhite = "assets/images/logo/logo_white.png";
+  static const String vadeLogoBlack = "assets/images/logo/logo_black.png";
   static const String vadeLogoName = "assets/images/logo/logoname.png";
 
   // OnBoarding
